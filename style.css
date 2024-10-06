@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #6B8E23;
+    height: 8rem;	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 15rem;
+}
+
+p {
+    max-width: 20rem;
+}
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+
+.segunda {
+    background-color: #228B22;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.segunda img {
+    width: 12,5rem;
+    height: 10rem;
+}
+
+.segunda p {
+    max-width: 40rem;
+}
+
+.terceira {
+    width: 13rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
